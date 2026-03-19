@@ -1,0 +1,70 @@
+.orders-page {
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 30px 20px;
+}
+
+.orders-page h1 {
+	margin-bottom: 20px;
+}
+
+.orders-list {
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+}
+
+.order-card {
+	background: #fff;
+	border-radius: 10px;
+	padding: 20px;
+	box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.order-header {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 15px;
+}
+
+.order-date {
+	font-size: 14px;
+	color: #6c757d;
+}
+
+.order-status {
+	font-size: 14px;
+	padding: 6px 12px;
+	border-radius: 20px;
+}
+
+.order-status.В\ обработке {
+	background-color: #fff3cd;
+	color: #856404;
+}
+
+.order-status.Завершён {
+	background-color: #d4edda;
+	color: #155724;
+}
+
+.order-items {
+	border-top: 1px solid #eee;
+	border-bottom: 1px solid #eee;
+	padding: 10px 0;
+	margin-bottom: 10px;
+}
+
+.order-item {
+	display: flex;
+	justify-content: space-between;
+	font-size: 14px;
+	padding: 4px 0;
+}
+
+.order-footer {
+	display: flex;
+	justify-content: space-between;
+	font-size: 16px;
+}
+

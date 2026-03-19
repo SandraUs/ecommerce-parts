@@ -1,0 +1,148 @@
+.admin-products-page {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 24px 16px 40px;
+}
+
+.admin-title {
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 24px;
+}
+
+.admin-section {
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+  padding: 20px 24px;
+  margin-bottom: 24px;
+}
+
+.admin-section-title {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 16px;
+}
+
+.admin-form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.admin-form-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.admin-form-row label {
+  display: flex;
+  flex-direction: column;
+  font-size: 14px;
+  gap: 6px;
+  flex: 1;
+  min-width: 180px;
+}
+
+.admin-form-row input,
+.admin-form-row select {
+  padding: 8px 10px;
+  border-radius: 4px;
+  border: 1px solid #d0d0d0;
+  font-size: 14px;
+}
+
+.admin-form-row input:focus,
+.admin-form-row select:focus {
+  outline: none;
+  border-color: #ff6600;
+  box-shadow: 0 0 0 1px rgba(255, 102, 0, 0.2);
+}
+
+.admin-form-actions {
+  display: flex;
+  gap: 12px;
+  margin-top: 4px;
+}
+
+.admin-btn {
+  padding: 8px 16px;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.admin-btn.primary {
+  background-color: #ff6600;
+  color: #ffffff;
+}
+
+.admin-btn.primary:disabled {
+  opacity: 0.7;
+  cursor: default;
+}
+
+.admin-btn.secondary {
+  background-color: #f0f0f0;
+  color: #333333;
+}
+
+.admin-error {
+  color: #c62828;
+  font-size: 14px;
+}
+
+.admin-info {
+  font-size: 14px;
+}
+
+.admin-table-wrapper {
+  width: 100%;
+  overflow-x: auto;
+}
+
+.admin-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 14px;
+}
+
+.admin-table th,
+.admin-table td {
+  border: 1px solid #e0e0e0;
+  padding: 8px 10px;
+  text-align: left;
+}
+
+.admin-table th {
+  background-color: #fafafa;
+  font-weight: 600;
+}
+
+.admin-link {
+  background: none;
+  border: none;
+  padding: 0;
+  margin-right: 8px;
+  cursor: pointer;
+  color: #1976d2;
+}
+
+.admin-link.danger {
+  color: #c62828;
+}
+
+.admin-empty {
+  text-align: center;
+  padding: 16px 0;
+  color: #666666;
+}
+
+@media (max-width: 768px) {
+  .admin-form-row {
+    flex-direction: column;
+  }
+}
+

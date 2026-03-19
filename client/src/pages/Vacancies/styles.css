@@ -1,0 +1,48 @@
+.vacancies-page {
+	max-width: 1100px;
+	margin: 0 auto;
+	padding: 30px 20px;
+}
+
+.vacancies-page h1 {
+	margin-bottom: 30px;
+}
+
+.vacancies-list {
+	display: flex;
+	flex-direction: column;
+	gap: 24px;
+}
+
+.vacancy-card {
+	background: #fff;
+	border-radius: 12px;
+	padding: 24px;
+	box-shadow: 0 4px 14px rgba(0, 0, 0, 0.06);
+}
+
+.vacancy-card h2 {
+	margin-bottom: 16px;
+}
+
+.vacancy-card h2 span {
+	font-size: 14px;
+	color: #666;
+}
+
+.vacancy-block {
+	margin-bottom: 12px;
+}
+
+.vacancy-block strong {
+	display: block;
+	margin-bottom: 4px;
+}
+
+.vacancy-link {
+	display: inline-block;
+	margin-top: 12px;
+	color: #e63946;
+	font-weight: 500;
+}
+

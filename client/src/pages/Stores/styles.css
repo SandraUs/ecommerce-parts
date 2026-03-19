@@ -1,0 +1,43 @@
+.stores-page {
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 40px 20px;
+}
+
+.stores-title {
+	font-size: 28px;
+	color: #212529;
+	margin-bottom: 25px;
+	font-weight: 600;
+}
+
+.stores-grid {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	gap: 18px;
+}
+
+.store-card {
+	background: #ffffff;
+	border: 1px solid #e9ecef;
+	border-radius: 12px;
+	padding: 18px 20px;
+	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.06);
+}
+
+.store-city {
+	font-size: 18px;
+	color: #212529;
+	margin-bottom: 8px;
+	font-weight: 600;
+}
+
+.store-address,
+.store-phone,
+.store-email,
+.store-work {
+	font-size: 14px;
+	color: #495057;
+	margin: 5px 0;
+}
+
